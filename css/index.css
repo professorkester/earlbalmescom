@@ -77,3 +77,17 @@ li
  {
      background:#bd5848; 
  }
+ 
+ #footer 
+ {
+     height: 50px;
+     background-color: rgba(13, 17, 22, 0.7);
+     text-align: center;
+ }
+ 
+ #footer-text
+ {
+    line-height: 50px;
+    color: white;
+	font-family: 'Roboto', sans-serif;
+ }
