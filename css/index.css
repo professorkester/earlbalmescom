@@ -5,21 +5,51 @@
 
 body
 {
-    background-color: rgba(13, 17, 22, 0.7);
     width:100%;
     height:100%;
 }
 
 #header
 {
-    background-color: rgba(13, 17, 22, 0.7);
-    height: 150px;
+    background-color: rgba(13, 17, 22, 1);
+}
+
+ul {
+    font-size: 0;
+}
+
+li.menu-button
+{
+    display: inline-block;
+    line-height: 50px;
+    font-size: 16px;
+}
+
+li.menu-button:hover
+{
+    background-color: rgba(13, 17, 22, 0.4);
+}
+
+a.menu-text 
+{
+    padding: 15px 30px 15px 30px;
+    line-height: 50px;
+    text-decoration:none;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+#menu
+{
+    background-color: rgba(13, 17, 22, 0.8);
+    height: 50px;
+    text-align: center;
 }
 
 #content
 {
-    background-color: rgba(75, 141, 202, 0.8);
-    height: 512px;
+    background-color: rgba(75, 141, 202, 1);
+    height: 450px;
 }
 
 h1
@@ -50,10 +80,14 @@ h1
 	width: 500px;
 }
 
-li 
+.list-button 
 {
+    color: white;
+	font-family: 'Roboto', sans-serif;
     display:inline;
-    padding:0px 15px 0px 15px;
+    padding:0px 15px 0px 15px;  
+    line-height: 50px;
+    font-size: 16px;
 }
 
 #link
@@ -81,7 +115,7 @@ li
  #footer 
  {
      height: 50px;
-     background-color: rgba(13, 17, 22, 0.7);
+     background-color: rgba(13, 17, 22, 1);
      text-align: center;
  }
  
