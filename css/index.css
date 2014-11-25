@@ -30,17 +30,27 @@
     color: #ffffff;    
 }
 
-.navbar-brand 
-{
-    font-size: 28px;
-}
-
-h1 
-{
-    text-align:right;   
-}
-
 body
 {
     padding-top: 70px;
+}
+
+.page-section 
+{
+    width:100%;
+    min-height: 800px;
+    padding:50px 0;
+    border-bottom: 10px solid #ffffff;
+}
+
+.page-section h1 
+{
+    font-size: 4em;
+    margin: 50px 0;    
+}
+
+.navbar-static-bottom 
+{
+    margin:0;
+     line-height: 50px;
 }
