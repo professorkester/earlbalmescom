@@ -1,3 +1,5 @@
+/*Taken from http://alijafarian.com/responsive-page-scrolling-with-jquery-and-bootstrap/ */
+
 $(document).ready(function () {
     // navigation click actions	
     $('.scroll-link').on('click', function (event) {
